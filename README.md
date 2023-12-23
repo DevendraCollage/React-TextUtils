@@ -18,3 +18,18 @@ Copying and clearing text have never been simpler – streamline user interactio
 
 4. **Clear Text:**
    Reset text content with a simple clear text function, offering users a quick and intuitive way to start afresh or remove unwanted input.
+   
+5. **CopyText**
+   Easily duplicate text with a single function call.
+
+6. **ReverseText**
+   Quickly reverse the order of characters in a given text.
+
+7. **ChangeText**
+   Modify text by replacing specified characters with new ones. 
+
+8. **RemoveSpecialCharacters**
+   Remove special characters from the text, leaving only alphanumeric characters.
+
+9. **ConvertToSentence**
+    Convert a string into a well-formatted sentence.
