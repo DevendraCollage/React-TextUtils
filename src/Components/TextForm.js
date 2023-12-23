@@ -119,6 +119,7 @@ export default function TextForm(props) {
                 color: props.mode === "dark" ? "white" : "black",
                 borderColor: props.mode === "dark" ? "white" : "black",
               }}
+              disabled={text.length === 0}
               className="btn btn-primary mx-1 my-2"
               onClick={handleUPClick}
             >
@@ -130,6 +131,7 @@ export default function TextForm(props) {
                 color: props.mode === "dark" ? "white" : "black",
                 borderColor: props.mode === "dark" ? "white" : "black",
               }}
+              disabled={text.length === 0}
               className="btn btn-primary mx-1 my-2"
               onClick={handleLOClick}
             >
@@ -141,6 +143,7 @@ export default function TextForm(props) {
                 color: props.mode === "dark" ? "white" : "black",
                 borderColor: props.mode === "dark" ? "white" : "black",
               }}
+              disabled={text.length === 0}
               className="btn btn-primary mx-1 my-2"
               onClick={handleRemoveSpace}
             >
@@ -152,6 +155,7 @@ export default function TextForm(props) {
                 color: props.mode === "dark" ? "white" : "black",
                 borderColor: props.mode === "dark" ? "white" : "black",
               }}
+              disabled={text.length === 0}
               className="btn btn-primary mx-1 my-2"
               onClick={handleClear}
             >
@@ -163,6 +167,7 @@ export default function TextForm(props) {
                 color: props.mode === "dark" ? "white" : "black",
                 borderColor: props.mode === "dark" ? "white" : "black",
               }}
+              disabled={text.length === 0}
               className="btn btn-primary mx-1 my-2"
               onClick={handleCopy}
             >
@@ -174,6 +179,7 @@ export default function TextForm(props) {
                 color: props.mode === "dark" ? "white" : "black",
                 borderColor: props.mode === "dark" ? "white" : "black",
               }}
+              disabled={text.length === 0}
               className="btn btn-primary mx-1 my-2"
               onClick={handleReverse}
             >
@@ -185,6 +191,7 @@ export default function TextForm(props) {
                 color: props.mode === "dark" ? "white" : "black",
                 borderColor: props.mode === "dark" ? "white" : "black",
               }}
+              disabled={text.length === 0}
               className="btn btn-primary mx-1 my-2"
               onClick={changeText}
             >
@@ -196,6 +203,7 @@ export default function TextForm(props) {
                 color: props.mode === "dark" ? "white" : "black",
                 borderColor: props.mode === "dark" ? "white" : "black",
               }}
+              disabled={text.length === 0}
               className="btn btn-primary mx-1 my-2"
               onClick={removeSpecialChar}
             >
@@ -207,6 +215,7 @@ export default function TextForm(props) {
                 color: props.mode === "dark" ? "white" : "black",
                 borderColor: props.mode === "dark" ? "white" : "black",
               }}
+              disabled={text.length === 0}
               className="btn btn-primary mx-1 my-2"
               onClick={convertSentence}
             >
