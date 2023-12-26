@@ -15,7 +15,7 @@ export default function TextForm(props) {
   const handleCopy = () => {
     let newCopy = document.getElementById("myBox");
     newCopy.select();
-    navigator.clipboard.writeText(newCopy.value); // Navigator Interface
+    navigator.clipboard.writeText(newCopy.value); //* Navigator Interface
     props.showAlert("Copied to Clipboard!", "success");
   };
 
@@ -229,8 +229,8 @@ export default function TextForm(props) {
             <b>
               {
                 text
-                  .replace(/\s/)
-                  .split(" ")
+                  .replace()
+                  .split(/\s+/)
                   .filter((value) => value !== "").length
               }
             </b>{" "}
